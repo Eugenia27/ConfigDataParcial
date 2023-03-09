@@ -13,9 +13,9 @@ spring:
         - id: id-api-catalog
           uri: lb://api-catalog
           predicates:
-            - Path=/api/v1/**
+            - Path=/api/v1/catalog/**
           filters:
-            - StripPrefix=2
+            - StripPrefix=3
 
 info:
   app:
