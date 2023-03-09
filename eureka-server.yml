@@ -19,5 +19,6 @@ management:
   endpoints:
     web:
       exposure:
-        include=*
+        include: "*"
+        exclude: "env,beans"
 
