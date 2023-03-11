@@ -1,13 +1,14 @@
 
-#server:
-#  port: ${PORT:0}
+server:
+  port: ${PORT:0}
 
 spring:
   application:
     name: api-movie
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3308/movie-dev?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
+    url: jdbc:mysql://localhost:3308/movie
+    -dev?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
     username: usr-movie
     password: pwd-movie
   jpa:
