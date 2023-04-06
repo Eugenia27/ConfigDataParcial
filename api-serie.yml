@@ -20,6 +20,8 @@ spring:
       database: series-dev
       port: 27017
       host: localhost
+      username: usr
+      password: pwd
 
 info:
   application:
