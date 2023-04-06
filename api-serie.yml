@@ -14,14 +14,12 @@ spring:
     baseUrl: http://localhost:9411/    
   mongodb:
     embedded:
-      version: 3.6.0
+      version: 4.0.2
   data:
     mongodb:
-      #username: usr
-      #password: pwd
       database: series-dev
       port: 27017
-      host: localhost
+      #host: localhost
 info:
   application:
     name: api-serie
