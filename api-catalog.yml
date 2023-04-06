@@ -19,7 +19,7 @@ spring:
     mongodb:
       database: catalog-dev
       port: 27018
-      host: localhost  
+      #host: localhost  
 info:
   application:
     name: api-catalog
